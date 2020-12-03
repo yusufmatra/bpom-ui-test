@@ -12,6 +12,20 @@ body {
   margin-top: 72px;
 }
 
+.jumbotron .btn {
+  background-color: #009B4C;
+  border: #009B4C;
+  color: white;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  font-size: 16px;
+}
+
+.jumbotron .btn:active {
+  background-color: #009B4C;
+  border: 3px solid #009B4C;
+}
+
 .breadcrumb-saya {
   font-size: 12px;
   height: 40px;
