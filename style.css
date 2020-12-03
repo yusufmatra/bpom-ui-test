@@ -4,6 +4,14 @@ body {
   font-family: Poppins;
 }
 
+.navbar-bpom {
+  height: 72px;
+}
+
+.jumbotron {
+  margin-top: 72px;
+}
+
 .breadcrumb-saya {
   font-size: 12px;
   height: 40px;
