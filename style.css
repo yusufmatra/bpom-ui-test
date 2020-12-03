@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  color: #263238;
+  font-family: Poppins;
+}
+
+.breadcrumb-saya {
+  font-size: 12px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.breadcrumb-saya a {
+  color: #009B4C;
+}
+
+.breadcrumb-saya .halaman-dikunjungi::after {
+  content: ' ...';
+}
+
+.tanggal {
+  font-size: 12px;
+  white-space: nowrap;
+  margin-top: 8px;
+}
+
+.judul-artikel {
+  padding-top: 24px;
+}
+
+.judul-artikel h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.isi-artikel .p {
+  margin-top: 24px;
+  line-height: 2;
+  text-align: justify;
+}
+/*# sourceMappingURL=style.css.map */
