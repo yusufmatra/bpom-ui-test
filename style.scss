@@ -6,12 +6,86 @@ body {
     font-family: Poppins;
 }
 
-.navbar-bpom {
-    height: 72px;
+.navbar-atas {
+    height: 80px;
+    padding-top: 16px;
+    position: relative;
+    z-index: 1;
+
+    .nav-item {
+        color: white;
+        .nav-link {
+            font-size: 14px;
+        }
+    }
+    
+
+    .logo-bpom {
+        height: 32px;
+    }
 }
 
-.jumbotron {
-    margin-top: 72px;
+.navbar-bawah {
+    height: 56px;
+    padding-top: 8px;
+    padding-left: 8px;
+    background-color: #054586;
+    border-radius: 4px;
+
+
+    .nav-link {
+        color: white;
+        line-height: 24px;
+        font-size: 14px;
+    }
+}
+
+.jumbotron-saya {
+    margin-right: 200px;
+    margin-left: 200px;
+    
+    .jumbotron {
+        margin-top: -24px;
+        padding-top: 96px;
+        border-radius: 8px;
+        height: 512px;
+
+        .display-4 {
+            margin-left: 52px;
+            margin-right: 52px;
+        }
+
+        .lead {
+            margin-left: 52px;
+            margin-right: 52px;
+        }
+
+        p {
+            color:#586069; 
+            font-weight: 400;
+            margin-left: 52px;
+            margin-right: 52px;
+        }
+
+        .my-4 {
+            margin-left: 52px;
+            margin-right: 52px;
+        }
+    
+        .btn {
+            background-color: #009B4C;
+            border: #009B4C;
+            color: white;
+            transition: all ease 0.5s;
+            font-size: 16px;
+            margin-left: 52px;
+    
+            &:active {
+                background-color: #009B4C;
+                border: 3px solid #009B4C;
+            }
+        }
+    }
 }
 
 // isi artikel

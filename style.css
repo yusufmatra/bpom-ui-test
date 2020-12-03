@@ -4,24 +4,84 @@ body {
   font-family: Poppins;
 }
 
-.navbar-bpom {
-  height: 72px;
+.navbar-atas {
+  height: 80px;
+  padding-top: 16px;
+  position: relative;
+  z-index: 1;
 }
 
-.jumbotron {
-  margin-top: 72px;
+.navbar-atas .nav-item {
+  color: white;
 }
 
-.jumbotron .btn {
+.navbar-atas .nav-item .nav-link {
+  font-size: 14px;
+}
+
+.navbar-atas .logo-bpom {
+  height: 32px;
+}
+
+.navbar-bawah {
+  height: 56px;
+  padding-top: 8px;
+  padding-left: 8px;
+  background-color: #054586;
+  border-radius: 4px;
+}
+
+.navbar-bawah .nav-link {
+  color: white;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.jumbotron-saya {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.jumbotron-saya .jumbotron {
+  margin-top: -24px;
+  padding-top: 96px;
+  border-radius: 8px;
+  height: 512px;
+}
+
+.jumbotron-saya .jumbotron .display-4 {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.jumbotron-saya .jumbotron .lead {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.jumbotron-saya .jumbotron p {
+  color: #586069;
+  font-weight: 400;
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.jumbotron-saya .jumbotron .my-4 {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.jumbotron-saya .jumbotron .btn {
   background-color: #009B4C;
   border: #009B4C;
   color: white;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   font-size: 16px;
+  margin-left: 52px;
 }
 
-.jumbotron .btn:active {
+.jumbotron-saya .jumbotron .btn:active {
   background-color: #009B4C;
   border: 3px solid #009B4C;
 }
