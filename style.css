@@ -29,6 +29,7 @@ body {
   padding-left: 8px;
   background-color: #054586;
   border-radius: 4px;
+  font-size: 14px;
 }
 
 .navbar-bawah .nav-link {
@@ -47,6 +48,7 @@ body {
   padding-top: 96px;
   border-radius: 8px;
   height: 512px;
+  background-color: #f5f6f8;
 }
 
 .jumbotron-saya .jumbotron .display-4 {
@@ -57,6 +59,7 @@ body {
 .jumbotron-saya .jumbotron .lead {
   margin-left: 52px;
   margin-right: 52px;
+  color: #222b35;
 }
 
 .jumbotron-saya .jumbotron p {
