@@ -47,8 +47,8 @@ body {
     
     
     .jumbotron {
-        margin-top: -24px;
-        padding-top: 96px;
+        // margin-top: -24px;
+        padding-top: 104px;
         border-radius: 8px;
         height: 512px;
         background-color: #f5f6f8;
@@ -93,6 +93,17 @@ body {
     }
 }
 
+// Judul content 
+.lihat-semua {
+    color: #009B4C;
+    transition: 0.25s;
+
+    &:hover {
+        color: #054586;
+        text-decoration: none;
+    }
+}
+
 // isi artikel
 .breadcrumb-saya {
     font-size: 12px;
@@ -105,7 +116,7 @@ body {
 
     .halaman-dikunjungi {
         &::after {
-            content: ' ...';
+            content: '...';
         }
     }
 }

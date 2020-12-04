@@ -44,8 +44,7 @@ body {
 }
 
 .jumbotron-saya .jumbotron {
-  margin-top: -24px;
-  padding-top: 96px;
+  padding-top: 104px;
   border-radius: 8px;
   height: 512px;
   background-color: #f5f6f8;
@@ -89,6 +88,17 @@ body {
   border: 3px solid #009B4C;
 }
 
+.lihat-semua {
+  color: #009B4C;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.lihat-semua:hover {
+  color: #054586;
+  text-decoration: none;
+}
+
 .breadcrumb-saya {
   font-size: 12px;
   height: 40px;
@@ -100,7 +110,7 @@ body {
 }
 
 .breadcrumb-saya .halaman-dikunjungi::after {
-  content: ' ...';
+  content: '...';
 }
 
 .tanggal {
