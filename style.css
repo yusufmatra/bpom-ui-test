@@ -135,4 +135,8 @@ body {
   line-height: 1.75;
   text-align: justify;
 }
+
+.card-rekomendasi-berita .card-body {
+  padding-left: auto;
+}
 /*# sourceMappingURL=style.css.map */
